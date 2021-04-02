@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>FeedbackPage</title>
+    <link rel="stylesheet" href="fb.css" />
+  </head>
+  <body>
+    <nav><div class="titleBar">Feedback Page</div></nav>
+    <div class="background">
+      <div class="container">
+        <div class="screen">
+          <div class="screen-body">
+            <div class="screen-body-item left">
+              <div class="app-title">
+                <span>CONTACT</span>
+                <span>US</span>
+              </div>
+            </div>
+            <div class="screen-body-item">
+              <div class="app-form">
+                <div class="app-form-group">
+                  <input class="app-form-control" placeholder="NAME" />
+                </div>
+                <div class="app-form-group">
+                  <input class="app-form-control" placeholder="EMAIL" />
+                </div>
+                <div class="app-form-group">
+                  <input class="app-form-control" placeholder="CONTACT NO" />
+                </div>
+                <div class="app-form-group message">
+                  <input class="app-form-control" placeholder="MESSAGE" />
+                </div>
+                <div class="app-form-group buttons">
+                  <button class="app-form-button">CANCEL</button>
+                  <button class="app-form-button">SEND</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      document.addEventListener("visibilitychange", function () {
+        document.title = document.visibilityState;
+        console.log(document.visibilityState);
+      });
+    </script>
+  </body>
+</html>

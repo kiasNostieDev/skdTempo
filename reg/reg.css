@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500&display=swap');
+
+body{
+  background-color: #353556;
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  position: absolute;
+  width: 100vw;
+  height: 70px;
+}
+
+.titleBar{
+  text-align: center;
+  padding: 20px 0;
+  background-color: #181827;
+  font-size: 30pt;
+  text-transform: uppercase;
+  color: white;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  letter-spacing: 2px;
+}
+
+.centerBox{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+  height: 100px;
+}
+
+.editText{
+  margin-bottom: 20px;
+  font-family: 'Mulish', sans-serif;
+}
+
+input{
+  border: unset;
+  border-radius: 8px;
+  padding: 15px;
+  width: 250px;
+  font-family: 'Mulish', sans-serif;
+  color: #d85727;
+}
+
+button{
+  background: none;
+  border: none;
+  color: #ffff4e;
+  font-size: 14pt;
+  float: right;
+  text-transform: uppercase;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover{
+  color: #d8d800;
+}

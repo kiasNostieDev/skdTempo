@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>EditorPage</title>
+    <link rel="stylesheet" href="edit.css">
+  </head>
+  <body>
+    <nav><div class="titleBar">Question Page</div></nav>
+    <div class="questionDiv" id="questionDiv">question Here</div>
+    <div class='editorAndCo'>
+      <div class='editorDiv' id="editor">#start to type</div>
+      <div class='coDiv'>
+        <div class='status'>0 test cases passed</div>
+        <div class='statusButtons'>
+          <button type="button" name="button" class='statusB'>Compile</button>
+          <a href='../fb/fb.html'><button type="button" name="button" class='statusB'>Next</button></a>
+        </div>
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.5/ace.js" type="text/javascript" charset="utf-8"></script>
+      <script type="text/javascript" src="edit.js"></script>
+      <script>
+        document.addEventListener('visibilitychange', function(){
+          document.title = document.visibilityState;
+          console.log(document.visibilityState);
+        });
+      </script>
+    </div>
+  </body>
+</html>

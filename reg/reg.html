@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>LoginPage</title>
+    <link rel="stylesheet" href="reg.css">
+    <script type="text/javascript" src="reg.js"></script>
+  </head>
+  <body>
+    <nav><div class="titleBar">Whatever Goes Here</div></nav>
+    <div class="centerBox">
+      <div class="editText one">
+        <input type="text" id="one" name="username" placeholder="USERNAME">
+      </div>
+      <div class="editText two">
+        <input type="password" id="two" name="password" placeholder="PASSWORD">
+      </div>
+      <a href='../edit/edit.html'><button type="button" onclick="buttonClick()" name="button" id="centerBoxButton">Next</button></a>
+      <script>
+        document.addEventListener('visibilitychange', function(){
+          document.title = document.visibilityState;
+          console.log(document.visibilityState);
+        });
+      </script>
+    </div>
+  </body>
+</html>

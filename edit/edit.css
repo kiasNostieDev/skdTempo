@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500&display=swap');
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 0 5px 5px 0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #d85727;
+  border-radius: 0 5px 5px 0;
+}
+
+body{
+  background-color: #353556;
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  position: absolute;
+  width: 100vw;
+  height: 70px;
+}
+
+.titleBar{
+  text-align: center;
+  padding: 20px 0;
+  background-color: #181827;
+  font-size: 30pt;
+  text-transform: uppercase;
+  color: white;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  letter-spacing: 2px;
+}
+
+.questionDiv{
+  position: absolute;
+  width: 95vw;
+  max-height: 160px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  font-family: 'Mulish', sans-serif;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 100px 2.5vw;
+  color: white;
+  font-size: 15pt;
+}
+
+.editorAndCo{
+  position: absolute;
+  width: 95vw;
+  margin: 300px 2.5vw;
+  padding: 5px;
+  height: calc(100vh - 330px);
+}
+
+.editorDiv{
+  height: inherit;
+  width: 50%;
+  float: left;
+}
+
+.coDiv{
+  height: inherit;
+  width: 48%;
+  padding: 0 0 0 1%;
+  float: left;
+}
+
+.status{
+  background-color: #08080d;
+  padding: 5px;
+  color: white;
+  font-family: 'Mulish', sans-serif, cursive;
+  height: 70%;
+}
+
+.statusButtons{
+  height: 20%;
+  margin-top: 3%;
+}
+
+button{
+  width: 45%;
+  float: left;
+  height: 100%;
+  margin-left: 20px;
+  border-radius: 5px;
+  border: none;
+  font-family: 'Mulish',sans-serif;
+  font-size: 20pt;
+  text-transform: uppercase;
+  transition: ease-in-out 0.3s;
+}
+
+button:hover{
+  letter-spacing: 2px;
+  background-color: #5a5a93;
+}
